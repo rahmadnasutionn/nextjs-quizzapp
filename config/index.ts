@@ -7,8 +7,8 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey:"AIzaSyCDSEX6-nK5ZomJq4I0sWTSXvel9tlyKRI",
-  authDomain: "nextjs-quiz-app-507ee.firebaseapp.com",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
   projectId: "nextjs-quiz-app-507ee",
   storageBucket: "nextjs-quiz-app-507ee.appspot.com",
   messagingSenderId: "413428842611",

@@ -5,7 +5,7 @@ const totalCategories = Array(24)
   .fill(0)
   .map((_, j) => 32 - j);
 
-const getAPIResp = async (): Promise<IQuestion[]> => {
+const getAPIResp = async (): Promise<IQuestion[] | any> => {
   const difficulty = ['easy', 'medium', 'hard'][0];
   const category = totalCategories[0];
 

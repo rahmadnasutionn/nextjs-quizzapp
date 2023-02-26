@@ -1,3 +1,9 @@
+## Quizz
+
+
+
+This app my submission to TecnicalTest in PT. Optima Media Teknologi
+
 ## Description
 
 
@@ -26,7 +32,7 @@ If you want to run this app in local computer, do:
 
 1. Clone this repository
 2. Run `npm install` or `yarn install` to install all the dependencies of the app
-3. Create a project in [firebase](https://firebase.google.com/)
+3. You need FIREBASE_API_KEY, Create a project in [firebase](https://firebase.google.com/)
 
 ```
 
